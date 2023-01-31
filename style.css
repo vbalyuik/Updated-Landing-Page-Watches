@@ -1,0 +1,177 @@
+@font-face {
+    font-family: 'LeagueSpartan-Light';
+    src: url(fonts/LeagueSpartan-Light.ttf);
+}
+@font-face {
+    font-family: 'LeagueSpartan-Regular';
+    src: url(fonts/LeagueSpartan-Regular.ttf);
+}
+.text-regular32 {
+    font-family: 'LeagueSpartan-Regular';
+    font-size: 32px;
+  }
+.text-light32 {
+    font-family: 'LeagueSpartan-Light';
+    font-size: 32px;
+  }
+.text-regular {
+    font-family: 'LeagueSpartan-Regular';
+}
+.text-light {
+    font-family: 'LeagueSpartan-Light';
+}
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+}
+  *, *:before, *:after {
+    box-sizing: inherit;
+}
+  ol, ul {
+    list-style: none;
+}
+.body {
+    font-family: 'League Spartan', sans-serif;
+}
+.header-container {
+    display: flex;
+    width: 1440px;
+    padding-top: 104px;
+    padding-left: 133px;
+    padding-right: 133px;
+    padding-bottom: 168px;
+    background-color: #F8F8F8;
+}
+.header-title {
+    margin-bottom: 53px;
+    font-size: 24px;
+    line-height: 45px;
+}
+.header-subtitle {
+    margin-bottom: 43px;
+    font-size: 250px;
+    line-height: 230px;
+}
+.header-description {
+    margin-bottom: 61px;
+    line-height: 50px;
+}
+.buy-wrapper {
+    
+    display: flex;
+}
+.buy-link {
+    display: block;
+    width: 278px;
+    height: 82px;
+    background-color: #161515;
+    color: #FFFFFF;
+    text-decoration: none;
+    line-height: 82px;
+    text-align: center;
+}
+.price {
+    width: 143px;
+    height: 82px;
+    background-color: #FFFFFF;
+    color: #272727;
+    text-decoration: none;
+    line-height: 82px;
+    text-align: center;
+}
+.header-img {
+    display: block;
+    width: 772px;
+    margin-top: -104px;
+    margin-left: -50px;
+}
+.popular-title {
+    margin-top: 43px;
+    text-align: center;
+    font-size: 24px;
+    line-height: 45px;
+    font-weight: 300px;
+}
+.models-title {
+    text-align: center;
+    font-size: 72px;
+    margin-bottom: 84px;
+}
+.item-wrapper {
+   margin: 0 auto;
+   width: 417px; 
+}
+.item-img-wrapper {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   width: 417px;
+   height: 630px;
+   background-color: #F8F8F8;
+   margin-bottom: 67px;
+   margin-bottom: 85px;
+}
+.item-title {
+    line-height: 30px;
+    margin-bottom: 17px;
+    text-align: center;
+}
+.item-description {
+    line-height: 30px; 
+    text-align: center;
+}
+.product-description-wrapper {
+    margin: 0 auto;
+    width: 417px;
+    margin-bottom: 85px;
+    margin-top: 100px;
+}
+.product-description-title {
+    text-align: center;
+    line-height: 60px;
+    margin-bottom: 58px;
+}
+.product-description {
+    text-align: center;
+    font-size: 24px;
+    line-height: 40px;
+}
+.product-description-link {
+    color: #BB8B5D;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+footer {
+    background: #272727;
+    width: 100%;
+    padding-top: 40px;
+    color: #FFFFFF;
+    }
+.footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    }
+.social-media {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+    }
+.social-media li {
+    margin: 0 10px;
+    }
+.social-media a {
+    text-decoration: none;
+    color: #FFFFFF;
+    }
+.footer-bottom {
+    background: #272727;
+    text-align: center;
+    }
